@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Arcade";
+    src: url("/static/fonts/ka1.ttf");
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    background-color: bisque;
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    flex-direction: column;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    letter-spacing: 32px;
+    font-family: Arcade, serif;
+    font-size: 8em;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.play-button {
+    letter-spacing: 8px;
+    background-color: #30bd0d;
+    border-radius: 8px;
+    border: 1px solid black;
+    color: black;
+    font-family: Arcade, serif;
+    padding: 16px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 2em;
+}
+
+.leader-boards {
+    letter-spacing: 8px;
+    background-color: #30bd0d;
+    border-radius: 8px;
+    border: 1px solid black;
+    color: black;
+    font-family: Arcade, serif;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 2em;
+}
